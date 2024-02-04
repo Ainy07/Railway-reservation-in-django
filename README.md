@@ -1,29 +1,17 @@
 ## Railway-reservation-in-django
-**Train Booking System**
-
+Train Booking System
 This Django-based web application serves as a simple train booking system. It provides functionality for users to view available trains, register, log in, book tickets, and manage bookings. Admin users can add new trains and view passenger details for each train.
 
-**Features**
-User Authentication: Users can register,
-log in, and log out. 
-Authentication is implemented using Django's built-in user authentication system.
+Features
+User Authentication: Users can register, log in, and log out. Authentication is implemented using Django's built-in user authentication system.
 
-Train Management: Admin users can add new trains, 
-including details such as source,
-destination, departure time,
-available seats,
-train name,
-and price.
+Train Management: Admin users can add new trains, including details such as source, destination, departure time, available seats, train name, and price.
 
-Booking: Authenticated users can search for available trains based on source and destination,
-select a train,
-and book tickets.
-The system ensures that available seats are updated upon successful booking.
+Booking: Authenticated users can search for available trains based on source and destination, select a train, and book tickets. The system ensures that available seats are updated upon successful booking.
 
-My Bookings: Authenticated users can view their booking history,
-including details of the trains they have booked.
+My Bookings: Authenticated users can view their booking history, including details of the trains they have booked.
 
-**Usage**
+Usage
 Clone the repository to your local machine.
 
 bash
@@ -58,6 +46,12 @@ Access the application in your web browser at http://localhost:8000.
 
 Admin users can log in using the superuser credentials and access the admin interface at http://localhost:8000/admin.
 
+Screenshots
+
+Add more screenshots as needed.
+
+Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests to improve the functionality, user interface, or documentation.
 
 
 **Contributing**
